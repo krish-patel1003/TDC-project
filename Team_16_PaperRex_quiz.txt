@@ -1,0 +1,40 @@
+1. What is the primary advantage of using LoRA in federated fine-tuning of LLMs?
+
+A. It increases model size for better accuracy
+B. It allows full model training on each client
+C. It reduces communication and memory by training only a small subset of parameters
+D. It eliminates the need for aggregation
+Answer: C
+
+2. What was the main impact of non-IID data compared to IID data in the experiments?
+
+A. It reduced communication cost significantly
+B. It improved fairness across clients
+C. It increased the client validation loss gap significantly
+D. It eliminated overfitting
+Answer: C
+
+3. What was the approximate communication reduction achieved by using LoRA instead of full model transmission?
+
+A. 10×
+B. 50×
+C. 114×
+D. 500×
+Answer: C
+
+4. What was the effect of increasing client participation from 50% to 75%?
+
+A. Increased fairness gap and reduced accuracy
+B. Reduced fairness gap and improved validation performance
+C. No noticeable change
+D. Increased communication cost but reduced convergence
+Answer: B
+
+5. Why does validation loss show oscillatory behavior across rounds in federated learning?
+
+A. Due to model initialization randomness
+B. Because of centralized training instability
+C. Due to client drift caused by heterogeneous local data distributions
+D. Because the dataset is too small
+
+Answer: C
